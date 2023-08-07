@@ -1,0 +1,52 @@
+
+
+.sectionProjects {
+	margin-top: 5.625rem;
+	scroll-behavior: smooth;
+}
+
+.sectionProjects h2{
+	margin-bottom: 1.5625rem;
+}
+.sectionProjects ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	gap: 1.5625rem;
+}
+
+.sectionProjects li {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	max-width: 30rem;
+	border: 1px solid var(--color-border);
+	border-radius: 25px;
+}
+
+.sectionProjects li > div{
+	padding: 13px;
+	display: inline-block;
+	gap: 1.0625rem;
+}
+
+.sectionProjects img {
+	max-height: 2.375rem;
+}
+
+
+@media ( min-width: 480px){
+	
+	.sectionProjects ul{
+		width: 80vw;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.sectionProjects li{
+		min-width: 435px;
+	}
+}
